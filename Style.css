@@ -1,0 +1,530 @@
+body
+{
+  margin: 1px;
+  padding: 0px;
+  }/*
+@media screen and (max-width: 768px){
+header{
+     background-color: lab(0% 0 0);
+     color: pink;
+    *Today's CSS file*
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f1f5f9;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 50px;
+
+}
+
+
+.container {
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    max-width: 750px;
+
+    margin: auto;
+
+}
+
+
+h1 {
+
+    color: blue;
+
+    font-size: 35px;
+
+    margin-bottom: 20px;
+
+}
+
+
+button {
+
+    padding: 12px 18px;
+
+    margin: 8px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+}
+
+
+button:hover {
+
+    background-color: #1e40af;
+
+} text-align: center;
+     padding: 20px;
+  } 
+
+.header {
+    width: 100%;
+    heighct: 300px;
+    overflow: hidden;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+  }
+*/
+/* Tablet */
+@media screen and (max-width: 700000px) {
+    .header {
+        height: 25px;
+        background-color): lightpink;
+      }
+   .header {
+        height: 150px;
+    }
+
+    .header img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 700000px){
+nav{
+  
+  color: hwb(212 36% 10%);
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  flex-wrap: wrap;
+  background-color:hwb(8 22% 9%);
+  text-decoration: center;
+  }
+nav a{
+  color: darkred;
+  text-decoration: none;
+  font-size: 15px;
+  
+  }
+nav a:hover
+{ 
+  color: lightpink;
+  }
+a:visited{
+  color:aqua;
+  }
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  }
+section{
+  background-color: lightpink;
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 8px;
+  size: auto;
+  
+  }
+}
+.home img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+  }
+
+/* style each marrige card*/
+ 
+.card{
+  width: 300px;
+  padding: 20px;
+  grid-template-rows: repeat(1,minmax(0, 1fr));
+  text-align: center;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px red;
+
+  transition: all 0.5s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:hwb(29 35% 14%);
+  box-sizing: border-box;
+  }
+
+.card h2{
+  color: hwb(236 15% 64%);
+  }
+.card p{
+  color: lab(0% 0 0);
+  }
+.card button{
+  background-color:blue;
+  color: white;
+  border: none;
+  padding-bottom: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 20px #888;
+.card button:hover{
+  background-color:hwb(242 20% 48%);
+  }
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card a{
+  background-color:blue;
+  color: white;
+  border: none;
+  padding-bottom: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+
+
+
+
+
+  
+/* Tablet Screen */
+@media screen and (max-width: 768px){
+    .card {
+        width: 45%;
+    }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+/* Laptop Screen */
+@media screen and (max-width: 768px) {
+.card-container{
+    display: grid;
+    grid-template-rows:rpeat(1, 1fr);
+    gap:20px;
+}
+}
+
+
+
+/* Mobile Screen */
+@media screen and (max-width: 70000px) {
+    .marriage-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: right;
+      
+      
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700000px){
+/* header */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 8%;
+  background-color:hwb(0 13% 85%);
+  
+  }
+.logo{
+  color: white;
+  font-size: 10px;
+  }
+  
+.navbar a{
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  }
+  }
+/* Hero section */
+
+.hero{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 70px 8%;
+  background-image: url("WEDDING 1.jpg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.hero-content{
+  flex: 1;
+  }
+.hero h1{
+  color: black;
+  font-size: 42px;
+  margin-bottom: 20px;
+  }
+  .hero p{
+    text-align: bold;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: hwb(243 2% 78%);
+    
+    }
+hero a{
+  display: inline-block;
+  color: black;
+  padding: 20px 22px;
+  text-decoration: none;
+  border-radius: 6px;
+  
+  
+  }
+   .hero img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+       }
+  .discription{
+    color: hwb(302 13% 73%);
+    font-size: 60px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+  .hero-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    }
+  .btn-primary,
+  .btn-secondary{
+    display: inline;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+  
+  .btn-primary{
+     background-color: hwb(120 2% 91%);
+    color: white;
+     }
+  .btn-secondary{
+    background-color:green;
+    color:white;
+    }
+  .subtitle{
+    color: darkgoldenrod;
+}
+ .about{
+   background: lightpink;
+  }
+  
+/* Gallery*/
+.gallery {
+    text-align: center;
+    padding: 30px 15px;
+    
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color:hwb(307 16% 49%);
+}
+
+.gallery-container img {
+    width: calc(33.33% - 10px);
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Mobile Screen */
+@media screen and (max-width: 700px) {
+    .gallery-container img {
+        width: calc(50% - 8px);
+        height: 140px;
+    }
+}
+
+  .booking-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #e83b5e;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ccc;
+}
+
+.booking-form h2 {
+    text-align: center;
+    color: #171014;
+}
+
+.booking-form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.booking-form textarea {
+    min-height: 100px;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #9e0456;
+}
+
+/* Mobile and Tablet */
+@media screen and (max-width: 768px) {
+    .booking-form {
+        width: auto;
+        margin: 15px;
+        padding: 15px;
+    }
+
+
+
+
+body {
+    background: linear-gradient(120deg, #dfd9e2, #764ba2);
+    font-family: Arial;
+  
+    
+}
+
+.login-box {
+    width: 300px;
+    background: white;
+    padding: 30px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #333;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: green;
+}
+}
+.back-home {
+    display: inline-block;
+    background-color: #800020;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background-color: #d4af37;
+    color: black;
+    transform: scale(1.05);
+}
